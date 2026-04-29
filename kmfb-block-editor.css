@@ -1,0 +1,35 @@
+/* Kamaliya Meta Fields Builder - Block Editor Styles */
+
+/* Force block wrappers to be non-sticky inside the editor */
+.kmfb-block-wrapper header,
+.kmfb-block-wrapper .header,
+.kmfb-block-wrapper section {
+    position: relative !important;
+    top: 0 !important;
+    z-index: 1 !important;
+}
+
+/* Push the Block Toolbar to the absolute front */
+.block-editor-block-list__block.is-selected {
+    z-index: 99999 !important;
+}
+.block-editor-block-contextual-toolbar {
+    z-index: 100000 !important;
+}
+
+/* Create space so toolbar is not cut off */
+.kmfb-block-wrapper {
+    margin-top: 50px !important;
+    padding-top: 10px !important;
+}
+
+/* Fix Rich Text Toolbar hiding behind Modal */
+.components-modal__screen-overlay {
+    z-index: 99999 !important;
+}
+.components-popover.block-editor-rich-text__inline-toolbar,
+.components-popover.block-editor-format-toolbar__image-popover,
+.components-popover.components-inline-color-popover,
+.components-popover {
+    z-index: 1000000 !important;
+}

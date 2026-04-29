@@ -1,0 +1,174 @@
+/* Kamaliya Meta Fields Builder - Admin Styles */
+
+.kmfb-section-title {
+    font-size: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #dcdcde;
+    margin-bottom: 20px;
+    color: #1d2327;
+}
+
+/* Field Wrap */
+.kmfb-field-wrap {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+/* Field Header */
+.kmfb-field-header {
+    display: flex;
+    padding: 12px 15px;
+    background: #f6f7f7;
+    border-bottom: 1px solid #c3c4c7;
+    cursor: grab;
+    align-items: center;
+}
+.kmfb-field-header span {
+    flex: 1;
+    font-weight: 600;
+    color: #1d2327;
+}
+.kmfb-field-header .hdr-tab-badge {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    font-size: 11px;
+    background: #e0e0e0;
+    padding: 3px 8px;
+    border-radius: 12px;
+    color: #50575e;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.kmfb-field-header .hdr-type {
+    flex: 0 0 auto;
+    color: #50575e;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.kmfb-field-header .hdr-icon {
+    flex: 0 0 auto;
+    margin-top: 3px;
+    color: #787c82;
+}
+.kmfb-field-header:hover {
+    background: #f0f0f1;
+}
+.kmfb-field-header,
+.kmfb-sub-field-header {
+    cursor: grab !important;
+}
+.kmfb-field-header:active,
+.kmfb-sub-field-header:active {
+    cursor: grabbing !important;
+    background: #e6f0fa;
+}
+
+/* Field Body */
+.kmfb-field-body {
+    padding: 25px 20px;
+    display: none;
+    border-left: 4px solid #2271b1;
+}
+
+/* Field Row */
+.kmfb-field-row {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f1;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.kmfb-field-row label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1d2327;
+}
+.kmfb-field-row input[type="text"],
+.kmfb-field-row input[type="number"],
+.kmfb-field-row select,
+.kmfb-field-row textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+}
+
+/* Sub Fields */
+.kmfb-sub-fields-box {
+    background: #f0f0f1;
+    padding: 15px;
+    border: 1px solid #c3c4c7;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.kmfb-sub-field-wrap {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 3px solid #00a0d2;
+}
+.kmfb-sub-row-default-val {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed #c3c4c7;
+}
+
+/* Location Box */
+.kmfb-location-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #c3c4c7;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-radius: 3px;
+}
+.kmfb-location-box select,
+.kmfb-location-box input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+}
+
+/* Utilities */
+.kmfb-hidden {
+    display: none !important;
+}
+
+/* Copy Slug Button */
+.kmfb-copy-name {
+    cursor: pointer;
+    color: #2271b1;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 10px;
+    padding: 2px 6px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.kmfb-copy-name:hover {
+    background: #f0f0f1;
+    border-color: #2271b1;
+}
+
+/* Image Preview */
+.kmfb-image-preview {
+    max-width: 120px;
+    height: auto;
+    border: 1px solid #c3c4c7;
+    padding: 3px;
+    background: #fff;
+    display: block;
+    border-radius: 3px;
+}
+.kmfb-image-meta {
+    font-size: 11px;
+    color: #50575e;
+    margin-top: 6px;
+    line-height: 1.4;
+}
